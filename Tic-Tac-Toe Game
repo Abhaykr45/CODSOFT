@@ -93,7 +93,7 @@ int main() {
 
         if (checkWin()) {
             displayBoard();
-            cout << "🎉 Player " << currentPlayer << " wins the game!\n";
+            cout << " Player " << currentPlayer << " wins the game!\n";
             running = false;
         }
         else if (checkDraw()) {
